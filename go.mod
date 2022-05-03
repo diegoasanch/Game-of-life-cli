@@ -1,12 +1,12 @@
-module GameOfLife
+module github.com/diegoasanch/Game-of-life-cli
 
 go 1.18
 
-replace GameOfLife/app => ./app
+replace github.com/diegoasanch/Game-of-life-cli/app => ./app
 
-replace GameOfLife/engine => ./engine
+replace github.com/diegoasanch/Game-of-life-cli/engine => ./engine
 
-replace GameOfLife/renderer => ./rederer
+replace github.com/diegoasanch/Game-of-life-cli/renderer => ./rederer
 
 require github.com/buger/goterm v1.0.4
 

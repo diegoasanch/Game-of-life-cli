@@ -1,6 +1,6 @@
 package main
 
-import "GameOfLife/app"
+import "github.com/diegoasanch/Game-of-life-cli/app"
 
 func main() {
 	app.Run()

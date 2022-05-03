@@ -1,10 +1,11 @@
 package app
 
 import (
-	"GameOfLife/engine"
-	"GameOfLife/renderer"
 	"fmt"
 	"time"
+
+	"github.com/diegoasanch/Game-of-life-cli/engine"
+	"github.com/diegoasanch/Game-of-life-cli/renderer"
 )
 
 func Run() {

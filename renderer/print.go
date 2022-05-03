@@ -1,9 +1,10 @@
 package renderer
 
 import (
-	"GameOfLife/engine"
 	"fmt"
 	"strings"
+
+	"github.com/diegoasanch/Game-of-life-cli/engine"
 
 	tm "github.com/buger/goterm"
 )
