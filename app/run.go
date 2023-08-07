@@ -57,7 +57,10 @@ func Run() {
 	averageIterationTime := sumSlice(times) / int64(iterationsCount)
 	averageFPS := 1.0 / (float64(averageIterationTime) / 1000000.0)
 
-	fmt.Printf("\nRun time: %s\n- avg FPS %.1f \n- avg iteration time: %f ms\n- Dimensions - w: %d, h: %d\n", duration, averageFPS, float64(averageIterationTime)/1000.0, width/2, height)
+	fmt.Printf("\n\nRun time: %.3f s\n", duration.Seconds())
+	fmt.Printf("- avg FPS %.1f\n", averageFPS)
+	fmt.Printf("- avg iteration time: %.3f ms\n", float64(averageIterationTime)/1000.0)
+	fmt.Printf("- Dimensions - w: %d, h: %d\n", width/2, height)
 }
 
 func sumSlice(toSum []int64) int64 {
